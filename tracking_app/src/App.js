@@ -26,7 +26,7 @@ useEffect(() => {
     <div className='parent' onMouseMove={handleMouse} >
         <div className='child1'>     
           Enter the Characters   
-         <input type="text" autoFocus onChange={handlesettextValue}/>    {/* used autofocus in text box */}
+         <input type="text" autoFocus onChange={handlesettextValue}/>    {/* used autofocus in text box , so cursor appears when the app starts  */}
          <TextLength textValue={textValue} />
          </div>
          <div className='child2' >
